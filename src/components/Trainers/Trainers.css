@@ -1,0 +1,71 @@
+.trainers {
+      
+}
+
+.trainers-container {
+      height: auto;
+      width: 100%;
+      /* padding: 3rem 0rem; */
+      overflow: hidden;
+
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      /* gap: 3rem 1rem; */
+      gap: 0rem;
+}
+
+.trainer-card {
+      height: 600px;
+      overflow: hidden;
+
+      background: rgb(245, 245, 245);
+      color: #fff;
+}
+
+.trainer-card__background {
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+      overflow: hidden;
+
+      background: #000;
+      transition: all 0.5s ease;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.trainer-card__background:hover {
+      background: #000;
+      color: #fff;
+
+      transform: scale(1.2);
+}
+
+.trainer-card__title {
+      padding: 10px;
+      font-size: 40px;
+}
+
+.trainer-card__link {
+      color: #fff;
+      font-size: 18px;
+}
+
+.icon {
+      font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+      .trainers {
+            padding: 5rem 0;
+      }
+
+      /* .services-container {
+            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      } */
+}
