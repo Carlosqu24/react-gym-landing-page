@@ -6,7 +6,9 @@ import './Main.css';
 // COMPONENTS
 import { Hero } from '../Hero';
 import { Services } from '../Services';
+import { Installations } from '../Installations';
 import { Trainers } from '../Trainers/index'
+import { Testimonials } from '../Testimonials';   
 import { Contact } from '../Contact/index'
 
 export const Main = () => {
@@ -16,7 +18,9 @@ export const Main = () => {
             <main className="main">
                   <Hero />
                   <Services />
+                  <Installations />
                   <Trainers />
+                  <Testimonials />
                   <Contact />
             </main>
       )

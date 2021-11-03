@@ -1,0 +1,19 @@
+.installations {
+      height: 100vh;
+}
+
+.installations .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.installations__img {
+      width: 45%;
+}
+
+.installations-container {
+      width: 45%;
+
+      text-align: left;
+}
