@@ -8,10 +8,9 @@
 }
 
 .form {
-      width: 50%;
-      min-width: 600px;
+      width: 100%;
       height: auto;
-      padding: 2rem 1rem;
+      padding: 1rem;
       margin: auto;
 
       background: var(--light-gray);
@@ -24,11 +23,11 @@
 }
 
 .form * {
-      margin: 15px 0;
+      margin: 10px 0;
 }
 
 .form-group {
-      width: 80%;
+      width: 100%;
 }
 
 label {
@@ -51,7 +50,7 @@ label {
 }
 
 .form-control--submit {
-      width: 80%;
+      width: 100%;
 
       background: var(--orange);
       color: #fff;
@@ -65,10 +64,15 @@ label {
             padding: 5rem 0;
       }
 
-      .form {
+      .contact .container {
+            width: 100%;
+            padding: 0 10px;
+      }
+
+      /* .form {
             width: 100%;
             min-width: 1px;
             margin: auto;
             padding: 0;
-      }
+      } */
 }

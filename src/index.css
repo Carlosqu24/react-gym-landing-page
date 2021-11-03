@@ -22,8 +22,16 @@ body {
     
 }
 
-.title {
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.section__title {
+    margin: 40px 0;
+    
     font-size: 35px;
+    text-align: center;
 }
 
 .section {

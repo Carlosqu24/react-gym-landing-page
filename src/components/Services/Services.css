@@ -1,13 +1,13 @@
 .services-container {
       width: 100%;
 
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      gap: 2rem;
 }
 
 .service-card {
-      width: 30%;
+      width: 100%;
       padding: 3rem 1rem;
 
       background: #000;
@@ -38,13 +38,18 @@
             padding: 0;
       }
 
-      .services-container {
-            flex-wrap: wrap;
+      .services .container {
+            width: 100%;
+            padding: 0 10px;
       }
 
-      .service-card {
+      /* .services-container {
+            flex-wrap: wrap;
+      } */
+
+      /* .service-card {
             width: 100%;
             margin: 0px auto;
             padding: 5rem 3rem;
-      }
+      } */
 }

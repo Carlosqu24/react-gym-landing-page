@@ -65,6 +65,11 @@
             padding: 5rem 0;
       }
 
+      .trainers .container {
+            width: 100%;
+            padding: 0 10px;
+      }
+
       /* .services-container {
             grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
       } */
