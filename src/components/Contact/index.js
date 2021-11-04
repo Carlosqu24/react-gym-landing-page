@@ -9,8 +9,6 @@ export const Contact = () => {
 
                   <div className="container">
                         <form className="form">
-                              <h2>Formulario</h2>
-
                               <div className="form-group">
                                     <label htmlFor="email">Email</label>
                                     <input 

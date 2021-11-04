@@ -2,28 +2,7 @@ import React from 'react';
 
 import './Services.css';
 
-const db = [
-      {
-            id: 1,
-            title: "Pérdida de peso",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit culpa eum, distinctio optio nam quasi?",
-            icon: "fas fa-weight"
-
-      },
-      {
-            id: 2,
-            title: "Musculación",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit culpa eum, distinctio optio nam quasi?",
-            icon: "fas fa-dumbbell"
-      },
-      {
-            id: 3,
-            title: "Salud cardiovascular",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit culpa eum, distinctio optio nam quasi?",
-            icon: "fas fa-heartbeat"
-      }
-]
-
+import db from '../../assets/db/Services.json'
 
 export const Services = () => {
 

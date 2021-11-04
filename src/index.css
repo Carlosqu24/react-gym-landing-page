@@ -1,7 +1,9 @@
 :root {
     /* COLORS */
-    --dark-gray: rgb(34, 34, 34);
+    --dark-gray: rgb(17, 17, 17);
     --light-gray: rgb(49, 49, 49);
+
+    --white-bg: rgb(240, 240, 240);
 
     --orange: rgb(206, 87, 4);
 
@@ -23,7 +25,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -32,12 +34,13 @@ body {
     
     font-size: 35px;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 .section {
     height: auto;
     width: 100%;
-    padding: 5rem;
+    padding: 5rem 0;
 
       
     background: var(--dark-gray);

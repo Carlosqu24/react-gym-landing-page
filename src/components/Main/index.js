@@ -7,7 +7,6 @@ import './Main.css';
 import { Hero } from '../Hero';
 import { Services } from '../Services';
 import { Installations } from '../Installations';
-import { Trainers } from '../Trainers/index'
 import { Testimonials } from '../Testimonials';   
 import { Contact } from '../Contact/index'
 
@@ -19,7 +18,6 @@ export const Main = () => {
                   <Hero />
                   <Services />
                   <Installations />
-                  <Trainers />
                   <Testimonials />
                   <Contact />
             </main>
