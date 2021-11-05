@@ -17,7 +17,7 @@ export const Main = () => {
             <main className="main">
                   <Hero />
                   <Services />
-                  <Installations />
+                  {/* <Installations /> */}
                   <Testimonials />
                   <Contact />
             </main>

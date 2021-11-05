@@ -23,10 +23,6 @@ export const Header = () => {
                         </li>
 
                         <li className="navbar__item">
-                              <a href="#installations" className="navbar__link">Instalaciones</a>
-                        </li>
-
-                        <li className="navbar__item">
                               <a href="#testimonials" className="navbar__link">Testimonios</a>
                         </li>
 

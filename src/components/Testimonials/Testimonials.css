@@ -38,6 +38,10 @@
       justify-content: space-between;
 }
 
+.testimonials-card * {
+      margin: 10px 0;
+}
+
 .testimonials-card__img {
       width: 100px;
       border-radius: 50%;
@@ -48,6 +52,22 @@
 
       text-align: justify;
 }
+
+.testimonials-card__name {
+
+}
+
+.testimonials-card__text {
+      
+}
+
+.testimonials-card__link {
+      
+
+      color: #fff;
+}
+
+
 
 @media screen and (max-width: 1000px) {
       .testimonials .container {

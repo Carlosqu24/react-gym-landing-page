@@ -3,12 +3,12 @@
       width: 100%;
       padding: 5rem 0;
 
-      background: var(--white-bg);
-      color: rgb(0, 0, 0);
+      background: var(--dark-gray);
+      color: rgb(255, 255, 255);
 }
 
 .contact .section__title {
-      color: #000;
+      color: rgb(255, 255, 255);
 } 
 
 .form {
